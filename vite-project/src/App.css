@@ -1,6 +1,82 @@
 #root {
   max-width: 1280px;
-  margin: 0 auto;
+  margin: 6rem;
   padding: 2rem;
+  text-align: left;
+
+}
+
+body {
+  background-image: url("/photos/d66x8mr-79c7f48d-fd3c-44fe-9813-412319cd795c.jpg");
+  background-color: gray;
+  background-size: auto;
+  background-position: center;
+}
+
+#signupContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: beige;
+  opacity: 0.8;
+  border: 1px solid white;
+  border-radius: 2rem 2rem 2rem 2rem;
+  width: fit-content;
   text-align: center;
+  padding: 2rem;
+  margin: 2rem;
+}
+
+#authentContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: beige;
+  opacity: 0.8;
+  border: 1px solid white;
+  border-radius: 2rem 2rem 2rem 2rem;
+  width: fit-content;
+  text-align: center;
+  align-items: center;
+  padding: 2rem;
+  margin: 2rem;
+}
+button{
+  transition: 2s;
+  background-color: beige;
+  width: fit-content;
+}
+
+button:hover {
+  background-color: cadetblue;
+  width: fit-content;
+  transition: 1s;
+}
+
+#ring {
+  color: gold;
+  opacity: 0.8;
+  transition: 5s;
+  background-color: gold;
+  border-radius: 10rem 10rem 10rem 10rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
+
+}
+#ring:hover {
+  background-color: gold;
+  width: fit-content;
+  border-radius: 10rem 10rem 10rem 10rem;
+  color: red;
+  transition: 15s;
+  margin: 0.5rem;
+  padding: 0.5rem;
+
+}
+
+#currentUser {
+  color: black;
+  font-weight: bolder;
+}
+
+p{
+  width: fit-content;
 }
